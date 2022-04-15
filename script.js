@@ -12,6 +12,7 @@ cont citName = document.getElementById('city-name')
 show-weather.addEventListener('click', () =>  {
   zipcode = userInput.value
   show-weather(zipcode)
+  
 })
 
 //async function show weather() {
